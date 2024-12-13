@@ -1,0 +1,424 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.firstspace{
+  height: 600px;
+  width: 100%;
+  background-color: black;  
+  position: relative;  
+}
+
+.logo{
+  height: 250px;
+  width: 250px;
+  left: 20px;
+  top: 20px;
+  background-image: url("Images/Image 3.png");
+  position: absolute;
+}
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  justify-content: right;
+  position: absolute;
+  display: block;
+  
+  display: flex;
+}
+
+.boxes{
+  margin-top: 20px;
+  right: 10px;
+  height: 50px;
+  width: 120px;
+  
+  
+  color: red;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.boxes a{
+  text-decoration: none;
+  color: red;
+}
+
+
+.secondspace{
+  margin-top: 10px;
+  height: 320px;
+  width: 100%;
+  display: flex;
+}
+.title{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: Saira;
+  font-weight: bold;
+  
+}
+.ourbranches{
+  height: 250px;
+  width: 250px;
+  
+  
+  margin-left: 20px;
+  margin-top: 40px    
+}
+.ourbranches p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ourbranches img{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.ourbranches img:hover{
+  cursor: pointer;
+  scale: 1.10;
+}
+.ourbranches button{
+  background-color: black;
+  font: Times;
+  color: white;
+  margin-top: 30px;
+  margin-left: 85px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ourbranches button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.thirdspace{
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+.text3{
+  bottom: 50px;
+  height: 150px;
+  width: 200px;
+  position: absolute;
+  right: 150px;
+  font-size: 25px;
+}
+
+.Co{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 30px;   
+}
+
+.Do{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 0;
+  margin-top: 0%;
+
+}
+
+.Eo{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 0;
+  margin-top: 0%;
+
+}
+
+.Fo{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 0;
+  margin-top: 0%;
+
+}
+
+.Ao{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 0;
+  margin-top: 0%;
+ 
+}
+
+.Bo{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 0;
+  margin-top: 0%;
+}
+
+
+
+.Co img{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
+  padding-top: 5%;
+  border-radius: 50%;
+  
+}
+
+.Go{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 44px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+
+
+.Ko{
+  text-align: center;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  font: Times ;
+  
+}
+
+.Co img:hover{
+  cursor: pointer;
+  transform: scale(1.10);
+}
+
+.fifth{
+  height: 450px;
+  width: 100%;
+  
+  position: relative;
+  display: flex;
+}
+
+.title1 p{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 44px;
+  color: black;
+  margin-bottom: 10px;
+}    
+
+.boxes2{
+  margin-top: 30px;
+  height: 400px;
+  width: 300px;
+  
+  margin-left: 85px;
+  top: 20px;
+}
+.boxes2 img{
+  margin-top: 40px;
+  margin-left: 55px;
+}
+.price img{
+  margin-left: 10px;
+}
+.price button{
+  margin-left: 90px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.price button:hover{
+  border: red solid;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+
+
+.boxes2 p{
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fif{
+  height: 550px;
+  width: 100%;
+  
+  position: relative;
+  display: flex;
+}
+
+.fifbox{
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+  height: 500px;
+  width: 47%;
+  background-color:none;
+  
+}
+.fifbox img{
+  margin-left: 0px;
+  width: 700px;
+  
+}
+.fifbox h1{
+  margin-left: 150px;
+  margin-top: 80px;
+  margin-bottom: 2px;
+  font-weight: 800;
+  
+  font-size: 20px;
+  color: red;
+
+}
+.fifbox h2{
+  margin-left: 150px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.fifbox h3{
+  margin-top: 5px;
+  margin-left: 150px;
+  font-weight: lighter;
+}
+.fifbox button{
+  margin-left: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 3%;
+  font-size: 20px;
+}
+
+.fifbox button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.sixth{ 
+  height: 550px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  display: flex;
+} 
+
+.last{
+          
+  background-color: #F4FEFE ;
+  position: relative;
+  width: 100%;
+  height: 284px;
+  left: 0px;
+  }
+  
+  .india{
+  position: absolute;
+  width: 265px;
+  height: 284px;
+  left: 0px;
+  border-radius: 189.606px;
+  }
+  
+  .head{
+  position: absolute;
+  width: 814px;
+  height: 100px;
+  left: 415px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #2FA73B;
+  }
+  
+  .EXPLORE{
+        
+  position: absolute;
+  left: 50%;
+  top: 146px;
+  background: #CEFEFE;
+  border: 3px solid #000000 ;
+  font-family :'Saira';
+  font-style:normal;
+  font-weight:500;
+  font-size : 24px;
+  line-height:38px;
+  text-align:center;
+  font-size:medium;
+  color: #000000;
+  transition: background-color color 2s;
+  }
+      
+  .EXPLORE:active{
+  cursor: pointer;
+  background-color: #000000;
+  color : #CEFEFE ;
+  }
+  
+  .contact{
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  right: 10px;
+  top: 190px;
+  font-family: 'Poly';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F11313;
+  }
+  

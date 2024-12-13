@@ -1,0 +1,28 @@
+body{
+  margin: 0px;
+      padding: 0px;
+      background-image: url("Images/beach.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.class{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+.kasak{
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+}
+
+.fasak{
+  height: 400px;
+  width: 35%;
+  margin-left: 150px;
+  color: black;
+}
